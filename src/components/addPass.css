@@ -1,0 +1,25 @@
+.addbox{
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+.addformbox{
+    width: 60%;
+}
+
+.success-message{
+    border: 2px dashed rgb(111, 205, 92);
+    color: rgb(111, 205, 92);
+    background: #5ccda51f;
+}
+
+.addWrap{
+    width: 100%;
+}
+
+@media screen and (min-width: 900px) {
+    .formbox {
+        min-width: 300px;
+        max-width: 60%;
+    }
+}
